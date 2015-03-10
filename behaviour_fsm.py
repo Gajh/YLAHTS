@@ -19,11 +19,13 @@ def init():
 def decollage():
     print "decollage"
     #corps de la fonction
+    script.ChangeMode("TAKEOFF",50);
     nextEvent = "decollage fait"
     return nextEvent 
 
 def exploration():
     print "turn until detect"
+    
     if () : 
         nextEvent = "atterrissage d'urgence" 
     elif () :
